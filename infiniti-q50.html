@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infiniti Q50 - Luxury.cars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <nav class="header_nav">
+                <a class="header_logo" href="index.html">Luxury.cars</a>
+                <ul class="header_nav-list">
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link active" href="catalog.html">Catalog</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="service.html">Service</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="test-drive.html">Test Drive</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+                <button class="profile_button" id="openloginButton" onclick="openModal()"><img src="img/customer.svg" alt="profile-icon"></button>
+            </nav>
+        </div>
+    </header>
+
+<main>
+    <section class="car-detail">
+        <div class="car-detail_container">
+            <a href="catalog.html" class="back-link">&larr; Back to Catalog</a>
+            <div class="car-detail__hero">
+                <img class="car-detail__image" src="img/q50.jpg" alt="Infiniti Q50">
+                <div class="car-detail__info">
+                    <h1 class="car-detail__title">Infiniti Q50</h1>
+                    <p class="car-detail__desc">Infiniti Q50 - це розкішний седан, який поєднує в собі елегантний дизайн, потужні двигуни та передові технології для забезпечення комфортного та захоплюючого водіння.</p>
+                    <p class="car-detail__price">from $36 000</p>
+                    <a href="test-drive.html" class="car-detail__cta">Book a Test Drive</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="car-description">
+        <div class="car-description_container">
+            <h2 class="section-title">About Infiniti Q50</h2>
+            <div class="car-description__text">
+                <p>Седан середнього класу виробництва японської компанії Infiniti, який в 2013 році замінив Infiniti G. В Японії він продається під назвою Nissan Skyline V37.</p>
+                <p>15 січня 2013 року на автосалоні в Детройті представлено Infiniti Q50.</p>
+                <p>Автомобіль побудований на модернізованій платформі Nissan FM (front midship), як і Infiniti G37. У моторній гамі з'явився модернізований двигун 3,7 л V6 VQ37VHR потужністю 328 к.с., гібридна версія 3,5 л V6 VQ35HR сумарною потужністю 364 к.с., а також турбодизель 2,2 л OM651DE22LA з системою Common rail потужністю 170 к.с. виробництва Mercedes-Benz.</p>
+                <p>Для Китайського ринку автомобіль отримує 2,0-літровий бензиновий турбо двигун потужністю 211 к.с. (від Mercedes-Benz Е-класу).</p>
+                <p>В 2020 році було додано підтримку сервісів Apple CarPlay і Android Auto в стандартну комплектацію. Також з виробництва зняли чотирициліндровий двигун для моделі Q50.</p>
+                <p>Infiniti оновила Q50 для 2021 модельного року. Седан отримав нову комплектацію Sensory. Лінійка кольорів кузова поповнилась двома відтінками сірого та синього.</p>
+                <p>У серпні 2024 року Infiniti оголосила про припинення випуску Q50 у північноамериканській лінійці, причому підтверджено, що 2024 рік стане останнім модельним роком для США та Канади після одинадцяти років продажу.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="car-specs">
+        <div class="car-specs_container">
+            <h2 class="section-title">Technical Specifications</h2>
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Model</th>
+                        <th>Engine Code</th>
+                        <th>Volume</th>
+                        <th>Cylinders</th>
+                        <th>Power</th>
+                        <th>Torque</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="specs-table__category"><td colspan="6">Petrol</td></tr>
+                    <tr>
+                        <td>2.0t P4 16V</td>
+                        <td>M274 DE20 AL</td>
+                        <td>1991 cc</td>
+                        <td>P4</td>
+                        <td>211 hp</td>
+                        <td>350 Nm</td>
+                    </tr>
+                    <tr>
+                        <td>3.0t V6 24V</td>
+                        <td>VR30DDTT</td>
+                        <td>2997 cc</td>
+                        <td>V6</td>
+                        <td>304 hp</td>
+                        <td>400 Nm</td>
+                    </tr>
+                    <tr>
+                        <td>3.0t V6 24V</td>
+                        <td>VR30DDTT</td>
+                        <td>2997 cc</td>
+                        <td>V6</td>
+                        <td>405 hp</td>
+                        <td>475 Nm</td>
+                    </tr>
+                    <tr>
+                        <td>3.7 V6 24V</td>
+                        <td>VQ37VHR</td>
+                        <td>3696 cc</td>
+                        <td>V6</td>
+                        <td>328 hp</td>
+                        <td>365 Nm</td>
+                    </tr>
+                    <tr class="specs-table__category"><td colspan="6">Diesel</td></tr>
+                    <tr>
+                        <td>2.2 P4 16V</td>
+                        <td>OM651 DE22 LA</td>
+                        <td>2143 cc</td>
+                        <td>P4</td>
+                        <td>170 hp</td>
+                        <td>400 Nm</td>
+                    </tr>
+                    <tr class="specs-table__category"><td colspan="6">Hybrid</td></tr>
+                    <tr>
+                        <td>3.5 V6 24V hybrid</td>
+                        <td>VQ35HR</td>
+                        <td>3498 cc</td>
+                        <td>V6</td>
+                        <td>364 hp</td>
+                        <td>546 Nm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="car-video">
+        <div class="car-video_container">
+            <h2 class="section-title">Video Review</h2>
+            <div class="car-video__wrapper">
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/mdnlsOfjEeU?si=J6_Zj88m8NLtP5HL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-link">
+        <div class="social-link_container">
+            <div class="social-link__left-group">
+                <h1>Follow Us</h1>
+                <div class="social-link__icons">
+                    <a class="social-link_icons" href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+                    <a class="social-link_icons" href="#"><img src="img/X.svg" alt="X"></a>
+                    <a class="social-link_icons" href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+            <form class="social-message_form">
+                <input type="email" placeholder="Enter Email For Updates" class="social-link__input">
+                <button class="social-link__button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about_container">
+            <div class="about_text">
+                <h1>Luxury Cars</h1>
+                <h2>We help you find your dream car</h2>
+            </div>
+            <div class="about_lists">
+                <ul class="about_list_info">
+                    <li class="about-list-main-item"><a href="#">Information</a></li>
+                    <li class="about-list-item"><a href="#">About Us</a></li>
+                    <li class="about-list-item"><a href="#">Product</a></li>
+                    <li class="about-list-item"><a href="#">Blog</a></li>
+                </ul>
+                <ul class="about_list_company">
+                    <li class="about-list-main-item"><a href="#">Company</a></li>
+                    <li class="about-list-item"><a href="#">Community</a></li>
+                    <li class="about-list-item"><a href="#">Career</a></li>
+                    <li class="about-list-item"><a href="#">Our Story</a></li>
+                </ul>
+                <ul class="about_list_contact">
+                    <li class="about-list-main-item"><a href="contacts.html">Contact</a></li>
+                    <li class="about-list-item"><a href="#">Getting Started</a></li>
+                    <li class="about-list-item"><a href="#">Pricing</a></li>
+                    <li class="about-list-item"><a href="#">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="lowtext">
+            <p class="low-text">2026 all rights reserved term of use Luxury Cars</p>
+        </div>
+    </section>
+</main>
+
+<div class="login_modal" id="login_modal">
+    <div class="login__container" id="login__container">
+        <div class="login_header">
+            <h2>Sign In</h2>
+            <button id="closeloginButton" class="login__close-button"><img src="img/close-icon.svg" alt="Close"></button>
+        </div>
+        <div class="login_form">
+            <form class="login__form">
+                <input type="email" placeholder="Email" class="login__input">
+                <input type="password" placeholder="Password" class="login__input">
+                <button type="submit" class="login__button">Sign In</button>
+                <p class="register_link">Don't have an account? <a href="javascript:void(0)" id="register_link">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+    <div class="register__container" id="register__container">
+        <div class="register_header">
+            <h2>Sign Up</h2>
+            <button id="closeregisterButton" class="register__close-button"><img src="img/close-icon.svg" alt="Close"></button>
+        </div>
+        <div class="register_form">
+            <form class="register__form">
+                <input type="text" placeholder="Name" class="register__input">
+                <input type="email" placeholder="Email" class="register__input">
+                <input type="password" placeholder="Password" class="register__input">
+                <button type="submit" class="register__button" onclick="closeRegisterModal()">Create Account</button>
+                <p class="login_link">Already have an account? <a id="login__link" href="javascript:void(0)">Sign In</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>

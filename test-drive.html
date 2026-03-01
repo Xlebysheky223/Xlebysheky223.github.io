@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Drive - Luxury.cars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <nav class="header_nav">
+                <a class="header_logo" href="index.html">Luxury.cars</a>
+                <ul class="header_nav-list">
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="catalog.html">Catalog</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="service.html">Service</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link active" href="test-drive.html">Test Drive</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+                <button class="profile_button" id="openloginButton" onclick="openModal()"><img src="img/customer.svg" alt="profile-icon"></button>
+            </nav>
+        </div>
+    </header>
+
+<main>
+    <section class="page-hero">
+        <div class="page-hero_container">
+            <h1 class="page-hero__title">Book a Test Drive</h1>
+            <p class="page-hero__subtitle">Experience the thrill before you buy</p>
+        </div>
+    </section>
+
+    <section class="test-drive">
+        <div class="test-drive_container">
+            <div class="test-drive__content">
+                <div class="test-drive__info">
+                    <h2 class="section-title">How It Works</h2>
+                    <div class="test-drive__steps">
+                        <div class="step">
+                            <div class="step__number">1</div>
+                            <div class="step__text">
+                                <h3>Choose Your Car</h3>
+                                <p>Browse our catalog and select the luxury vehicle you'd like to test drive.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step__number">2</div>
+                            <div class="step__text">
+                                <h3>Fill the Form</h3>
+                                <p>Provide your details and preferred date and time for the test drive.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step__number">3</div>
+                            <div class="step__text">
+                                <h3>Get Confirmation</h3>
+                                <p>Our manager will contact you to confirm the appointment within 24 hours.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step__number">4</div>
+                            <div class="step__text">
+                                <h3>Enjoy the Ride</h3>
+                                <p>Visit our showroom and experience the luxury driving firsthand.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-drive__form-wrapper">
+                    <h2 class="section-title">Request a Test Drive</h2>
+                    <form class="test-drive__form">
+                        <input type="text" placeholder="Your Name" class="form-input" required>
+                        <input type="tel" placeholder="Phone Number" class="form-input" required>
+                        <input type="email" placeholder="Email" class="form-input" required>
+                        <select class="form-input" required>
+                            <option value="" disabled selected>Select a Car</option>
+                            <option value="infiniti-q50">Infiniti Q50</option>
+                            <option value="porsche-911">Porsche 911</option>
+                            <option value="bmw-m5">BMW M5</option>
+                            <option value="mercedes-amg">Mercedes-AMG GT</option>
+                            <option value="audi-rs7">Audi RS7</option>
+                            <option value="lexus-lc500">Lexus LC 500</option>
+                        </select>
+                        <input type="date" class="form-input" required>
+                        <textarea placeholder="Additional comments" class="form-input form-textarea"></textarea>
+                        <button type="submit" class="form-button">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-link">
+        <div class="social-link_container">
+            <div class="social-link__left-group">
+                <h1>Follow Us</h1>
+                <div class="social-link__icons">
+                    <a class="social-link_icons" href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+                    <a class="social-link_icons" href="#"><img src="img/X.svg" alt="X"></a>
+                    <a class="social-link_icons" href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+            <form class="social-message_form">
+                <input type="email" placeholder="Enter Email For Updates" class="social-link__input">
+                <button class="social-link__button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about_container">
+            <div class="about_text">
+                <h1>Luxury Cars</h1>
+                <h2>We help you find your dream car</h2>
+            </div>
+            <div class="about_lists">
+                <ul class="about_list_info">
+                    <li class="about-list-main-item"><a href="#">Information</a></li>
+                    <li class="about-list-item"><a href="#">About Us</a></li>
+                    <li class="about-list-item"><a href="#">Product</a></li>
+                    <li class="about-list-item"><a href="#">Blog</a></li>
+                </ul>
+                <ul class="about_list_company">
+                    <li class="about-list-main-item"><a href="#">Company</a></li>
+                    <li class="about-list-item"><a href="#">Community</a></li>
+                    <li class="about-list-item"><a href="#">Career</a></li>
+                    <li class="about-list-item"><a href="#">Our Story</a></li>
+                </ul>
+                <ul class="about_list_contact">
+                    <li class="about-list-main-item"><a href="contacts.html">Contact</a></li>
+                    <li class="about-list-item"><a href="#">Getting Started</a></li>
+                    <li class="about-list-item"><a href="#">Pricing</a></li>
+                    <li class="about-list-item"><a href="#">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="lowtext">
+            <p class="low-text">2026 all rights reserved term of use Luxury Cars</p>
+        </div>
+    </section>
+</main>
+
+<div class="login_modal" id="login_modal">
+    <div class="login__container" id="login__container">
+        <div class="login_header">
+            <h2>Sign In</h2>
+            <button id="closeloginButton" class="login__close-button"><img src="img/close-icon.svg" alt="Close"></button>
+        </div>
+        <div class="login_form">
+            <form class="login__form">
+                <input type="email" placeholder="Email" class="login__input">
+                <input type="password" placeholder="Password" class="login__input">
+                <button type="submit" class="login__button">Sign In</button>
+                <p class="register_link">Don't have an account? <a href="javascript:void(0)" id="register_link">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+    <div class="register__container" id="register__container">
+        <div class="register_header">
+            <h2>Sign Up</h2>
+            <button id="closeregisterButton" class="register__close-button"><img src="img/close-icon.svg" alt="Close"></button>
+        </div>
+        <div class="register_form">
+            <form class="register__form">
+                <input type="text" placeholder="Name" class="register__input">
+                <input type="email" placeholder="Email" class="register__input">
+                <input type="password" placeholder="Password" class="register__input">
+                <button type="submit" class="register__button" onclick="closeRegisterModal()">Create Account</button>
+                <p class="login_link">Already have an account? <a id="login__link" href="javascript:void(0)">Sign In</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
